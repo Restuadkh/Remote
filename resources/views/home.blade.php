@@ -15,6 +15,8 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    <br>
+                    <a href="{{ route('Dashboard') }}" class="btn btn-primary">Dashboard</a>
                 </div>
             </div>
         </div>

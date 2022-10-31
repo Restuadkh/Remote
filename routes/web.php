@@ -21,3 +21,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/Dashboard', 'DashboardController@index')->name('Dashboard');
+Route::post('/Server', 'ServerController@create');

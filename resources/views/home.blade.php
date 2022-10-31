@@ -16,10 +16,30 @@
 
                     {{ __('You are logged in!') }}
                     <br>
+                    <button class="btn btn-primary" onclick="contoh()">Klik disini</button>
                     <a href="{{ route('Dashboard') }}" class="btn btn-primary">Dashboard</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<script type="text/javascript">
+
+    function contoh() {
+
+       swal({
+
+            title: "Berhasil!",
+
+            text: "Pop-up berhasil ditampilkan",
+
+            icon: "success",
+
+            button: true
+
+        });
+
+    }
+
+</script>
 @endsection
